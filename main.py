@@ -32,7 +32,7 @@ def task_to_run(driver):
     """在凌晨4点时执行的任务"""
     # 打开指定网址
     print("开始修改端口")
-    driver.get("http://45.43.59.128:54321/yikolemon/xui/")
+    driver.get("url")
 
     # 登录操作
     name = WebDriverWait(driver, 10).until(
